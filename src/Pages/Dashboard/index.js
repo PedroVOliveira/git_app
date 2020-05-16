@@ -23,7 +23,7 @@ function Dashboard() {
         onChange ={(e) => setUsers(e.target.value)}
         value={users}
         />
-        <button><i class="fas fa-search"></i></button>
+        <button><i className="fas fa-search"></i></button>
       </Form>
       {usersInfo && (
         <UserInfos>
